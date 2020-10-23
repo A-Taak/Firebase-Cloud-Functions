@@ -4,7 +4,7 @@ import * as admin from 'firebase-admin'
 
 admin.initializeApp();
 
-const client = algoliasearch("MYEGE624YZ", "e005d6f0167f0bec4eb7917c186be4c6")
+const client = algoliasearch("__Code__", "__apiKey__")
 const adultsIndex = client.initIndex(`dev_USERNAME`) // <-- Index name
 
   export const algoliaAdultsSync = functions
